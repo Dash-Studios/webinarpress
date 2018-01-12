@@ -1,0 +1,145 @@
+.wbinr_page_wrap{
+	float:left;
+	width:100%;	
+	font-size:14px;
+}
+.wbinr_page_wrap *,
+.wbinr_box_wrap *
+ {
+	box-sizing:border-box;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.wbinr_box_wrap .fa{
+	font-family:FontAwesome;
+}
+.wbinr_container{
+	max-width:1100px;
+	width:90%;
+	margin:0 auto;
+	display:table;
+}
+
+.wbinr_content {
+    background: #FFF;
+    border: solid 1px #CCC;
+    border-radius: 8px;
+	float:left;
+	width:100%;
+}
+
+.wbinr_presenter {
+    padding: 10px;
+    width: 100%;
+    float: left;
+    border-bottom: solid 1px #CCC;
+    background: #ff4162;
+    color: #FFF;
+	 border-radius: 8px 8px 0 0;
+}
+
+.wbinr_schedules {
+    padding: 10px;
+    width: 50%;
+    float: left;
+}
+.wbinr_schedules ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	width: 100%;
+    float: left;
+}
+
+.wbinr-button {
+    padding: 10px 20px;
+    background: #ff4162;
+    color: #FFF;
+    float: right;
+    margin: 50px 50px 0 0;
+}
+.wbinr_box_wrap{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background:rgba( 0, 0, 0, 0.7 );
+	display:none;
+}
+
+.wbinr_registration_box {
+    width: 700px;
+    max-width: 96%;
+    background: #f5f5f5;
+    left: 50%;
+    position: fixed;
+    margin-left: -350px;
+    top: 10%;
+    padding: 15px;
+	border-radius:5px;
+}
+
+.wbinr_box_left {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.wbinr_box_right {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.wbinr_box_wrap .form_row {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.wbinr_box_wrap .form_row input[type=text],
+.wbinr_box_wrap .form_row input[type=email],
+.wbinr_box_wrap .form_row input[type=password],
+.wbinr_box_wrap .form_row select,
+.wbinr_box_wrap .form_row .wbinr_input_fld{
+    float: left;
+    width: 100%;
+	background:#fff;
+	padding:10px;
+	border:solid 1px #CCC;
+	border-radius: 5px;
+}
+.wbinr_box_wrap .form_row .wbinr_input_fld.error_input{
+	border:solid 1px  #ff5151;	
+}
+.wbinr_fld_error {
+	color: #ff5151;
+	font-size:11px;
+	height:20px;
+	float:left;
+	width:100%;
+}
+#wbinr_register_error.wbinr_error,
+#wbinr_register_error.wbinr_success {
+    background: #ff5151;
+    color: #FFF;
+    padding: 5px 10px;
+    height: auto;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#wbinr_register_error.wbinr_success {
+    background: #25ef00 !important;
+}
+.wbinr_box_wrap .form_row .wbinr-button{
+	padding: 12px 20px;
+    background: #ff4162 !important;
+    color: #FFF;
+    float: left;
+    margin: 0;
+	width:100%;
+	border-radius: 5px;
+}
+.wbinr_close {
+    float: right;
+    position: absolute;
+    right: 20px;
+}
+

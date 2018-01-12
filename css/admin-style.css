@@ -1,0 +1,151 @@
+.wbinr_tabs_wrap{
+	width:100%;
+	display:table;
+}
+.wbinr_tabs_wrap *{
+	box-sizing:border-box;
+}
+.wbinr_tabs{
+	float:left;
+	width:100%;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.wbinr_tabs li{
+	float:left;
+	margin-right:3px;
+}
+.wbinr_tabs li a{
+	float:left;
+	padding:10px;
+	text-decoration:none;
+	background: #0097f4;
+	color:#FFF;
+	border-radius:3px;
+}
+.wbinr_tabs li a:hover, .wbinr_tabs li a.selected{
+	color: #fff;
+    background-color: #337ab7;
+}
+
+.wbinr_tab_content {
+    float: left;
+    width: 100%;
+}
+
+.wbinr_tab_content li {
+	float: left;
+    width: 100%;
+	display:none;
+}
+.wbinr_tab_content li.open{
+	display:block;
+}
+.wbinr_from_row {
+	float: left;
+    width: 100%;
+	margin-bottom:20px;
+}
+.wbinr_from_row label {
+    width: 22%;
+    float: left;
+}
+.wbinr_from_row .wbinr_from_field{
+	width:78%;
+	float: left;
+}
+.wbinr_from_field input[type=text],
+.wbinr_from_field input[type=email],
+.wbinr_from_field input[type=number],
+.wbinr_from_field select,
+.wbinr_from_field textarea{
+	width:100%;
+	padding:8px;
+	margin:0;
+	height:37px;
+	background-color:#FFF;
+}
+
+.wbinr_from_field .wbinr_description {
+    font-size: 11px;
+    color: #a0a0a0;
+    /* font-style: italic; */
+}
+.wbinr_vid_len_fld {
+    width: 90px;
+    float: left;
+    margin-right: 5px;
+    background: #dddddd;
+    border-radius: 5px;
+	padding: 1px;
+}
+.wbinr_from_field .wbinr_vid_len_fld input{
+	width: 50px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.wbinr_schedule_fld {
+    width: auto;
+    float: left;
+    margin-right: 5px;
+}
+.wbinr_schedule_fld.day {
+    min-width: 177px;
+}
+.wbinr_add_schedule, .wbinr_remove_schedule {
+    font-size: 16px;
+    line-height: 37px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.wbinr_remove_schedule{
+	color:#F00;
+}
+.schedule_date input[type=text]{
+	width:150px;
+}
+.time input[type=text]{
+	width:90px;
+}
+.schedule_date .ui-datepicker-trigger, .time .timepicker-trigger {
+    margin: 0;
+    background: none;
+    border: none;
+    float: right;
+    display: inline;
+    line-height: 37px;
+    font-size: 19px;
+    /* margin-left: 5px; */
+    background: #ddd;
+    padding: 0 5px;
+}
+.wbinr_schedules {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.wbinr_schedules .wbinr_schedule_repeat{
+	width: 100%;
+    float: left;
+	margin-bottom:10px;
+}
+.wbinr_input_error{
+	clear:both;
+	color:#f00;
+}
+.error_input {
+	border-color: #F00 !important;
+}
+
+.wbinr_page_url{
+	float:left;
+	width:100%;
+	margin-top:10px;
+	display:none;
+}
+#wbinr_thankyou_page{
+	width:auto;
+}
